@@ -1,4 +1,4 @@
-'''def print_list_reverse(lst):
+def print_list_reverse(lst):
     if lst is None or lst == [] or type(lst) != list:
         return 'Wrong list'
     return lst[::-1]
@@ -34,7 +34,7 @@ def print_sublist_reverse(lst, start, finish):
 
 
 print(print_sublist_reverse([10, 20, 30, 40, 50, 60],1, 3))
-print(print_sublist_reverse([1, 2, 3], "0", 2))'''
+print(print_sublist_reverse([1, 2, 3], "0", 2))
 
 
 
